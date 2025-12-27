@@ -22,13 +22,15 @@ title: Tom Tourwé
 
 <div id="about" class="section hidden">
   <div class="markdown-content">
-    {% include about-content.html %}
+    {% capture about_content %}{% include about.md %}{% endcapture %}
+    {{ about_content | markdownify }}
   </div>
 </div>
 
 <div id="challenges" class="section hidden">
   <div class="markdown-content">
-    {% include challenges-content.html %}
+    {% capture challenges_content %}{% include challenges.md %}{% endcapture %}
+    {{ challenges_content | markdownify }}
   </div>
 </div>
 
