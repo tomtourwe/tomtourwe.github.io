@@ -8,8 +8,8 @@ title: Tom Tourwé
   <aside class="sidebar">
     <h1>Tom Tourwé</h1>
     <nav class="sidebar-nav">
-      <a href="#about" onclick="showSection('about')">About</a>
-      <a href="#challenges" onclick="showSection('challenges')">Challenges</a>
+      <a href="#about" onclick="showSection('about'); return false;">About</a>
+      <a href="#challenges" onclick="showSection('challenges'); return false;">Challenges</a>
     </nav>
   </aside>
 
@@ -22,13 +22,13 @@ title: Tom Tourwé
 
 <div id="about" class="section hidden">
   <div class="markdown-content">
-    {% include about.md %}
+    {% include about-content.html %}
   </div>
 </div>
 
 <div id="challenges" class="section hidden">
   <div class="markdown-content">
-    {% include challenges.md %}
+    {% include challenges-content.html %}
   </div>
 </div>
 
@@ -53,8 +53,15 @@ function showSection(sectionId) {
     targetSection.classList.remove('hidden');
   }
 
-  // Update URL hash
-  window.location.hash = sectionId;
+  // Update URL hash without scrolling
+  if (history.pushState) {
+    history.pushState(null, null, '#' + sectionId);
+  } else {
+    window.location.hash = sectionId;
+  }
+
+  // Prevent default anchor behavior
+  return false;
 }
 
 // Show section based on URL hash on page load
@@ -62,6 +69,20 @@ document.addEventListener('DOMContentLoaded', function() {
   const hash = window.location.hash.substring(1);
   if (hash === 'about' || hash === 'challenges') {
     showSection(hash);
+  }
+});
+
+// Handle browser back/forward buttons
+window.addEventListener('popstate', function() {
+  const hash = window.location.hash.substring(1);
+  if (hash === 'about' || hash === 'challenges') {
+    showSection(hash);
+  } else {
+    // Hide all sections if no valid hash
+    const sections = document.querySelectorAll('.section');
+    sections.forEach(section => {
+      section.classList.add('hidden');
+    });
   }
 });
 </script>
