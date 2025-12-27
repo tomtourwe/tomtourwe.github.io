@@ -1,19 +1,30 @@
-<!doctype html>
-<html lang="{{ page.lang | default: 'en' }}">
-    <head>
-        <meta charset="utf-8" />
-        <title>{{ page.title | default: site.title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!DOCTYPE html>
 
-        <link rel="stylesheet" href="/assets/style.css" />
-    </head>
-    <body>
-        <main class="content">{{ content }}</main>
+<html lang="{{ page.lang | default: site.lang }}">
 
-        <!-- 100% privacy-first analytics -->
-        <script
-            async
-            src="https://scripts.simpleanalyticscdn.com/latest.js"
-        ></script>
-    </body>
+{% include head.html %}
+<body>
+<header class="hover smooth">
+  {% unless site.show_minimal and site.navigation and site.external %}
+    <h1 {% if site.navigation and site.external %}class="full"{% endif %}><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
+  {% endunless %}
+  {% include menu.html menu=site.navigation %}
+  {% include menu.html menu=site.external %}
+</header>
+
+{{ content }}
+
+{%- if site.footer -%}
+<footer class="hover">
+  <div>{{ site.description }}</div>
+  {% include menu.html menu=site.footer %}
+</footer>
+{%- endif -%}
+
+<!-- 100% privacy-first analytics -->
+<script
+    async
+    src="https://scripts.simpleanalyticscdn.com/latest.js"
+></script>
+</body>
 </html>
