@@ -4,15 +4,16 @@ lang: en
 title: Tom Tourwé
 ---
 
-<nav class="main-nav">
-  <div class="nav-brand">
+<div class="layout-container">
+  <aside class="sidebar">
     <h1>Tom Tourwé</h1>
-  </div>
-  <div class="nav-links">
-    <a href="#about" onclick="showSection('about')">About</a>
-    <a href="#challenges" onclick="showSection('challenges')">Challenges</a>
-  </div>
-</nav>
+    <nav class="sidebar-nav">
+      <a href="#about" onclick="showSection('about')">About</a>
+      <a href="#challenges" onclick="showSection('challenges')">Challenges</a>
+    </nav>
+  </aside>
+
+  <main class="main-content">
 
 <div class="hero-section">
   <h2>Welcome to my professional portfolio</h2>
@@ -59,6 +60,9 @@ title: Tom Tourwé
       </div>
     </div>
   </div>
+</div>
+
+  </main>
 </div>
 
 <div class="language-links">
