@@ -21,6 +21,34 @@
 </footer>
 {%- endif -%}
 
+<!-- Contact handler -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const contactLinks = document.querySelectorAll('a.contact-link');
+
+  contactLinks.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+
+      const infoA = this.getAttribute('data-info-a');
+      const infoB = this.getAttribute('data-info-b');
+
+      if (infoA && infoB) {
+        // Process the info parts: reverse the strings
+        const processedA = infoA.split('').reverse().join('');
+        const processedB = infoB.split('').reverse().join('');
+
+        // Create the contact string
+        const contactAddress = processedA + '@' + processedB;
+
+        // Navigate to contact
+        window.location.href = 'mailto:' + contactAddress;
+      }
+    });
+  });
+});
+</script>
+
 <!-- 100% privacy-first analytics -->
 <script
     async

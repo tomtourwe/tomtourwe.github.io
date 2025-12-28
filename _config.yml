@@ -22,13 +22,18 @@ navigation: # accepts {file, title, url, icon, sidebaricon}
   - { file: "README.md", sidebaricon: address-card }
 
 external: # accepts {file, title, url, icon, sidebaricon}
-  - { title: Mail, icon: envelope, url: "mailto:author@example.com" }
+  - { title: Mail, icon: envelope, url: "special-contact" }
   - { title: Github, icon: github, url: "https://github.com/tomtourwe" }
   - {
       title: LinkedIn,
       icon: linkedin,
       url: "https://be.linkedin.com/in/tomtourwe",
     }
+
+# Contact information
+contact_info:
+  part_a: "bew.ewruot.mot" # "tom.tourwe.web" reversed
+  part_b: "eb.tenelet" # "telenet.be" reversed
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
