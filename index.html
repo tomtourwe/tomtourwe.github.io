@@ -3,6 +3,14 @@ layout: default
 title: "Home"
 ---
 
+{% assign about_page = site.pages | where: "title", "About me" | first %}
+{% if about_page %}
+  <article>
+    <header><h1>{{ about_page.title }}</h1></header>
+    {{ about_page.content }}
+  </article>
+{% endif %}
+
 {% if site.show_excerpts %}
   {% for post in site.posts %}
     <article>
