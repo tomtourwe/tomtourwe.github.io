@@ -1,6 +1,6 @@
 title: "Welcome to my professional website"
 author: "Tom Tourwé"
-description: ""
+description: "Tom Tourwé"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -23,12 +23,12 @@ navigation: # accepts {file, title, url, icon, sidebaricon}
 
 external: # accepts {file, title, url, icon, sidebaricon}
   - { title: Mail, icon: envelope, url: "mailto:author@example.com" }
+  - { title: Github, icon: github, url: "https://github.com/tomtourwe" }
   - {
-      title: Github,
-      icon: github,
-      url: "https://github.com/niklasbuschmann/contrast",
+      title: LinkedIn,
+      icon: linkedin,
+      url: "https://be.linkedin.com/in/tomtourwe",
     }
-  - { title: Subscribe, icon: rss, url: "/feed.xml" }
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
