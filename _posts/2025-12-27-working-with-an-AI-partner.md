@@ -75,7 +75,7 @@ In the proposal, it’s important to describe how the project moves beyond exper
 ---
 
 ## Key takeaways
-Successful AI innovation projects aren't just about using the newest models and algorithms. It’s about making practical choices, handling uncertainty, and building skills and systems that last beyond a single project. With that in mind, the following recommendations summarize what to look for in a strong AI partnership and how to create proposals that lead to real, lasting results
+Successful AI innovation projects aren't just about using the newest models and algorithms. They are about making practical choices, handling uncertainty, and building skills and systems that last beyond a single project. With that in mind, the following recommendations summarize what to look for in a strong AI partnership and how to create proposals that lead to real, lasting results, with a much larger chance of acceptance.
 
 - Structure the work realistically: clearly define the division of effort between AI tasks and the contributions of your internal team. Ensure the project is not treated as AI-only.
 - Ensure the right technical expertise: collaborate with partners who have deep technical backgrounds and make plans to build similar skills internally to reduce long-term dependency.
@@ -84,4 +84,4 @@ Successful AI innovation projects aren't just about using the newest models and 
 - Be pragmatic about technology choices: avoid “technology push” — use methods that fit the problem, whether simple machine learning or fine-tuning a foundation model, rather than defaulting to the latest hype.
 - Foster close collaboration: ensure knowledge transfer and co-creation happen through day-to-day collaboration rather than distant reporting.
 - Plan for deployment and long-term use: describe in the proposal how models will be deployed, integrated, monitored, and maintained beyond experiments and prototypes.
-=- Clarify ownership and avoid lock-in: data and model ownership should remain with your organization, with clear agreements to support long-term maintenance and the ability to switch partners if needed.
+- Clarify ownership and avoid lock-in: data and model ownership should remain with your organization, with clear agreements to support long-term maintenance and the ability to switch partners if needed.
