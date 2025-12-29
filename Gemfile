@@ -8,3 +8,4 @@ group :jekyll_plugins do
 end
 
 gem "logger"
+gem "jekyll-sitemap"
