@@ -8,7 +8,7 @@ Many organizations turn to external AI partners when they want to start an innov
 
 In this crowded landscape, success depends less on bold marketing claims or advanced technology and more on how well the partnership is structured and how well it fits the project. Selecting the right AI partner is therefore not just about technical capability, but about alignment in expectations, ways of working, and long-term goals.
 
-Based on lessons learned across multiple AI innovation projects, the sections below outline practical characteristics of a strong AI partner and a well-structured collaboration. They can be used as a checklist when developing an R&D funding proposal.
+Based on lessons learned across multiple AI innovation projects, the sections below outline practical characteristics of a strong AI partner and a well-structured collaboration. They can be used as a checklist when developing an R&D funding proposal and help increase the likelihood of your proposal being accepted.
 
 
 
