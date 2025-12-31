@@ -8,6 +8,13 @@
     <meta name="author" content="{{ page.author | default: site.author | escape }}">
     <meta name="generator" content="Jekyll v{{ jekyll.version }}">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines }}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="{{ site.url }}/assets/images/site.png" />
+
     {%- if site.show_minimal -%}
     <link rel="stylesheet" href="{{ "/assets/css/minimal.css" | relative_url }}">
     {%- elsif site.show_frame -%}
@@ -16,6 +23,7 @@
     <link rel="stylesheet" href="{{ "/assets/css/index.css" | relative_url }}">
     {%- endif -%}
     <link rel="stylesheet" href="{{ "/assets/PT-Sans/index.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/sharing.css" | relative_url }}">
     {%- if site.plugins contains "jekyll-feed" -%}
     <link rel="alternate" href="{{ site.feed.path | default: "/feed.xml" | relative_url }}" type="application/atom+xml" title="{{ site.title }}">
     {%- endif -%}

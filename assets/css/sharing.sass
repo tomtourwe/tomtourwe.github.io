@@ -1,0 +1,51 @@
+---
+---
+
+.sharing-buttons
+  margin: 2em 0
+  padding-top: 1em
+  border-top: 1px solid #e5e7eb
+
+  .share-button
+    display: inline-flex
+    align-items: center
+    gap: 0.5em
+    margin-right: 1em
+    padding: 0.5em 1em
+    border: 1px solid #d1d5db
+    border-radius: 0.375em
+    background: #f9fafb
+    color: #374151
+    text-decoration: none
+    font-size: 0.875em
+    font-weight: 500
+    transition: all 0.2s ease
+
+    &:hover
+      background: #f3f4f6
+      border-color: #9ca3af
+      text-decoration: none
+      color: #111827
+
+    &.linkedin:hover
+      background: #0077b5
+      border-color: #0077b5
+      color: white
+
+    &.email:hover
+      background: #6b7280
+      border-color: #6b7280
+      color: white
+
+    svg
+      width: 16px
+      height: 16px
+      fill: currentColor
+
+@media (max-width: 640px)
+  .sharing-buttons
+    .share-button
+      display: block
+      margin-bottom: 0.5em
+      margin-right: 0
+      text-align: center
