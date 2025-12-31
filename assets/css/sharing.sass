@@ -5,12 +5,20 @@
   margin: 2em 0
   padding-top: 1em
   border-top: 1px solid #e5e7eb
+  display: flex
+  align-items: center
+  gap: 1em
+  flex-wrap: wrap
+
+  .sharing-label
+    font-weight: 500
+    color: #6b7280
+    font-size: 0.875em
 
   .share-button
     display: inline-flex
     align-items: center
     gap: 0.5em
-    margin-right: 1em
     padding: 0.5em 1em
     border: 1px solid #d1d5db
     border-radius: 0.375em
@@ -44,8 +52,12 @@
 
 @media (max-width: 640px)
   .sharing-buttons
-    .share-button
-      display: block
+    flex-direction: column
+    align-items: flex-start
+
+    .sharing-label
       margin-bottom: 0.5em
-      margin-right: 0
-      text-align: center
+
+    .share-button
+      width: 100%
+      justify-content: center
