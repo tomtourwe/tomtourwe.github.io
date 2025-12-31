@@ -1,16 +1,16 @@
 ---
-title: "Working with an AI partner: considerations for an effective proposal"
+title: "Working with an AI partner: considerations for a strong R&D proposal"
 layout: post
 ---
-*Practical guidance for innovation projects and proposal writing*
+
+Based on lessons learned across multiple AI innovation projects, this article describes practical characteristics of a strong AI partner and a well-structured collaboration. They can be used as a checklist when developing an R&D funding proposal and help increase the likelihood of your proposal being accepted.
+
+
+
 
 Many organizations turn to external AI partners when they want to start an innovation project but lack deep in-house expertise. This is a sensible approach — AI projects are complex, multidisciplinary, and often experimental. At the same time, the number of companies positioning themselves as AI experts has grown rapidly, with many making similar promises of strong expertise and excellent results.
 
 In this crowded landscape, success depends less on bold marketing claims or advanced technology and more on how well the partnership is structured and how well it fits the project. Selecting the right AI partner is therefore not just about technical capability, but about alignment in expectations, ways of working, and long-term goals.
-
-Based on lessons learned across multiple AI innovation projects, the sections below outline practical characteristics of a strong AI partner and a well-structured collaboration. They can be used as a checklist when developing an R&D funding proposal and help increase the likelihood of your proposal being accepted.
-
-
 
 ---
 
@@ -30,7 +30,7 @@ Finally and ultimately, you are responsible for turning project results into bus
 ### 2. Ensure the right technical expertise on both sides. 
 A strong AI partner involves people with solid technical backgrounds, such as formal education in computer science or applied AI. At the same time, you should have concrete plans to hire or develop similar expertise internally. This signals a long-term commitment to using AI and reduces the risk of becoming permanently dependent on the external partner.
 
-This level of expertise is important because AI projects are inherently exploratory. It is rarely clear upfront which models, approaches, or data representations will work best. A Team needs to experiment, compare alternatives, and adapt as new insights emerge. Doing this effectively requires people who understand the underlying methods, not just how to use tools.
+This level of expertise is important because AI projects are inherently exploratory. It is rarely clear upfront which models, approaches, or data representations will work best. A team needs to experiment, compare alternatives, and adapt as new insights emerge. Doing this effectively requires people who understand the underlying methods, not just how to use tools.
 
 That understanding also becomes critical when things do not work as expected — which is common in innovative projects. Being able to use AI tools is not the same as understanding how they work. Diagnosing unexpected behavior, identifying root causes, and making meaningful improvements requires insight into how the models and methods behind the tools work.
 
