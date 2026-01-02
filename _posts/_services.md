@@ -1,10 +1,16 @@
-Fractional Head of AI
+---
+title: "Services I offer as fractional Head of AI"
+layout: post
+---
 
 I offer support as a fractional head of AI for companies working on AI-driven innovation projects, often in the context of VLAIO funding.
 
 In this role, I take temporary responsibility for the AI framing and positioning of the project and for coordinating with external partners and VLAIO. The engagement is modular: depending on your needs, I can take on a single, well-defined task or support multiple steps across the process.
 
 All activities below fall under this fractional head of AI role, but none are mandatory.
+
+
+
 
 ---
 
