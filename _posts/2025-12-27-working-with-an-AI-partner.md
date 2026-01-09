@@ -12,6 +12,8 @@ Many organizations turn to external AI partners when they want to start an innov
 
 In this crowded landscape, success depends less on bold marketing claims or advanced technology and more on how well the partnership is structured and how well it fits the project. Selecting the right AI partner is therefore not just about technical capability, but about alignment in expectations, ways of working, and long-term goals.
 
+To understand how these considerations fit into the broader context of how a proposal is evaluated, read the [evaluation guide](/evaluation-guide)
+
 ---
 
 ### 1. Ensure a realistic division of effort

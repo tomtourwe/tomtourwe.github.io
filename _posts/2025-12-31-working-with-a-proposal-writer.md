@@ -15,7 +15,7 @@ The market for external proposal-writing services is large and diverse however, 
 
 Whatever partner you choose, even the most experienced proposal writer cannot work in isolation. They rely heavily on your input: your business vision, domain expertise, technical understanding, and market insights. Knowing what to expect from this collaboration — and how to evaluate it upfront — is key to producing a proposal that is concrete, credible, and competitive.
 
-This article shares practical tips to help you understand what to look for in an external proposal writer, work effectively with such a partner, and ultimately increase your chances of submitting a strong and successful R&D proposal.
+This article shares practical tips to help you understand what to look for in an external proposal writer, work effectively with such a partner, and ultimately increase your chances of submitting a strong and successful R&D proposal. For a deeper view of how proposals are actually evaluated and what other topics reviewers focus on, see the full [evaluation guide](/evaluation-guide)
 
 ---
 

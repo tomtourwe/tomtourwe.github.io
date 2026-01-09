@@ -22,7 +22,7 @@ Strong proposals start with a concrete customer problem, not with a technology l
 
 **Third, why is AI the right tool for this problem?** It’s not enough to say AI is involved — you need to show that the problem fundamentally _requires_ AI. This means explicitly linking the customer problem to what AI is uniquely good at: prediction, classification, recommendation, language understanding, vision, planning, etc. Strong explanations make this link concrete, for example: “Unplanned equipment downtime → time-series prediction on sensor data to detect a known failure 24–48 hours in advance.” Weak explanations stay abstract: “AI will predict failures.” The goal is for me to immediately recognize that the problem maps cleanly to a known AI technique, and why non-AI approaches are not sufficient, for example because fixed rules or manual analysis can not capture the important but subtle patterns. 
 
-**In-depth article →** [Problem statements that convince -- Coming soon]()
+**In-depth article →** [Problem statements that convince](/2026-01-10-problem-statements-that-convince)
 
 ---
 
